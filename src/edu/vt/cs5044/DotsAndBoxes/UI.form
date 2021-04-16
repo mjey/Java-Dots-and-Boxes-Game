@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JFrame" name="jFrame1">
+      <Properties>
+        <Property name="defaultCloseOperation" type="int" value="2"/>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[529, 437]"/>
+        </Property>
+        <Property name="resizable" type="boolean" value="false"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jButton4" max="32767" attributes="0"/>
+                      <Component id="jButton3" max="32767" attributes="0"/>
+                      <Component id="jButton2" pref="245" max="32767" attributes="0"/>
+                      <Component id="jButton1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jLayeredPane1" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jLayeredPane1" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Component id="jButton1" min="-2" pref="61" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jButton4" min="-2" pref="61" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jButton2" min="-2" pref="61" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jButton3" min="-2" pref="56" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Play"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" Dimension"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Exit"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Level"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JLayeredPane" name="jLayeredPane1">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="levelPanel" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="dimensionPanel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="18" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="levelPanel" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="dimensionPanel" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="levelPanel">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="levelPanel.setVisible(false);"/>
+              </AuxValues>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jRadioButton3" linkSize="4" min="-2" max="-2" attributes="0"/>
+                              <Component id="jRadioButton2" linkSize="4" min="-2" max="-2" attributes="0"/>
+                              <Component id="jRadioButton1" linkSize="4" min="-2" pref="117" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="33" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                          <Component id="jRadioButton1" linkSize="5" min="-2" pref="46" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jRadioButton2" linkSize="5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jRadioButton3" linkSize="5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Beginner"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Intermediate"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioButton3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Expert"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="dimensionPanel">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="dimensionPanel.setVisible(false);"/>
+              </AuxValues>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel4" pref="48" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                  <Component id="ColField" min="-2" pref="89" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel3" max="32767" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="rowField" min="-2" pref="89" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabel3" max="32767" attributes="0"/>
+                              <Component id="rowField" pref="33" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="ColField" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                              <Component id="jLabel4" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="111" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JTextField" name="rowField">
+                </Component>
+                <Component class="javax.swing.JTextField" name="ColField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Rows"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Column"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup3">
+    </Component>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="New Game"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Change Mode"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem2ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Exit"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem3ActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Option"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JRadioButtonMenuItem" name="jRadioButtonMenuItem1">
+              <Properties>
+                <Property name="selected" type="boolean" value="true"/>
+                <Property name="text" type="java.lang.String" value="Human Vs Human"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JRadioButtonMenuItem" name="jRadioButtonMenuItem2">
+              <Properties>
+                <Property name="selected" type="boolean" value="true"/>
+                <Property name="text" type="java.lang.String" value="Computer Vs Human"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" linkSize="3" min="-2" pref="109" max="-2" attributes="0"/>
+              <EmptySpace pref="388" max="32767" attributes="0"/>
+              <Component id="jLabel2" linkSize="3" min="-2" pref="196" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="469" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" linkSize="2" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="jLabel2" linkSize="2" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="User Point: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player 2 Point:"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
